@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\一体机测温后台管理系统\packages\EntityFramework.6.4.0\build\EntityFramework.props" Condition="Exists('..\一体机测温后台管理系统\packages\EntityFramework.6.4.0\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C430145-D34C-4037-80D4-4160BC2F179C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Face.Models</RootNamespace>
+    <AssemblyName>Face.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\一体机测温后台管理系统\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\一体机测温后台管理系统\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attendance.cs" />
+    <Compile Include="BaseEntity.cs" />
+    <Compile Include="City.cs" />
+    <Compile Include="Class.cs" />
+    <Compile Include="District.cs" />
+    <Compile Include="EnterAndLeave.cs" />
+    <Compile Include="Equipment.cs" />
+    <Compile Include="Face.cs" />
+    <Compile Include="FaceContext.cs" />
+    <Compile Include="Grade.cs" />
+    <Compile Include="Migrations\202004021426451_InitialCreate.cs" />
+    <Compile Include="Migrations\202004021426451_InitialCreate.designer.cs">
+      <DependentUpon>202004021426451_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004021521571_A.cs" />
+    <Compile Include="Migrations\202004021521571_A.designer.cs">
+      <DependentUpon>202004021521571_A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004040431130_s.cs" />
+    <Compile Include="Migrations\202004040431130_s.designer.cs">
+      <DependentUpon>202004040431130_s.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004101113413_updata.cs" />
+    <Compile Include="Migrations\202004101113413_updata.designer.cs">
+      <DependentUpon>202004101113413_updata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004101341422_genggaitype.cs" />
+    <Compile Include="Migrations\202004101341422_genggaitype.designer.cs">
+      <DependentUpon>202004101341422_genggaitype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004101404047_updata1.cs" />
+    <Compile Include="Migrations\202004101404047_updata1.designer.cs">
+      <DependentUpon>202004101404047_updata1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004101440125_edit.cs" />
+    <Compile Include="Migrations\202004101440125_edit.designer.cs">
+      <DependentUpon>202004101440125_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004120727025_s1.cs" />
+    <Compile Include="Migrations\202004120727025_s1.designer.cs">
+      <DependentUpon>202004120727025_s1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004120751096_s2.cs" />
+    <Compile Include="Migrations\202004120751096_s2.designer.cs">
+      <DependentUpon>202004120751096_s2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004120755513_2.cs" />
+    <Compile Include="Migrations\202004120755513_2.designer.cs">
+      <DependentUpon>202004120755513_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004211118248_Script.cs" />
+    <Compile Include="Migrations\202004211118248_Script.designer.cs">
+      <DependentUpon>202004211118248_Script.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004261306317_InitialCreate1.cs" />
+    <Compile Include="Migrations\202004261306317_InitialCreate1.designer.cs">
+      <DependentUpon>202004261306317_InitialCreate1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004281030359_PaperTest.cs" />
+    <Compile Include="Migrations\202004281030359_PaperTest.designer.cs">
+      <DependentUpon>202004281030359_PaperTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004281146088_Script1.cs" />
+    <Compile Include="Migrations\202004281146088_Script1.designer.cs">
+      <DependentUpon>202004281146088_Script1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004301027049_addteacher.cs" />
+    <Compile Include="Migrations\202004301027049_addteacher.designer.cs">
+      <DependentUpon>202004301027049_addteacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005010600364_deleqid.cs" />
+    <Compile Include="Migrations\202005010600364_deleqid.designer.cs">
+      <DependentUpon>202005010600364_deleqid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005010913454_ADD_CITY.cs" />
+    <Compile Include="Migrations\202005010913454_ADD_CITY.designer.cs">
+      <DependentUpon>202005010913454_ADD_CITY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005010935073_ad.cs" />
+    <Compile Include="Migrations\202005010935073_ad.designer.cs">
+      <DependentUpon>202005010935073_ad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005010946273_ad1.cs" />
+    <Compile Include="Migrations\202005010946273_ad1.designer.cs">
+      <DependentUpon>202005010946273_ad1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005051441582_j.cs" />
+    <Compile Include="Migrations\202005051441582_j.designer.cs">
+      <DependentUpon>202005051441582_j.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005181314543_add-eqnum-sdt.cs" />
+    <Compile Include="Migrations\202005181314543_add-eqnum-sdt.designer.cs">
+      <DependentUpon>202005181314543_add-eqnum-sdt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005181321466_ade.cs" />
+    <Compile Include="Migrations\202005181321466_ade.designer.cs">
+      <DependentUpon>202005181321466_ade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005191048457_no-zizeng.cs" />
+    <Compile Include="Migrations\202005191048457_no-zizeng.designer.cs">
+      <DependentUpon>202005191048457_no-zizeng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006060906134_add_kaoQin.cs" />
+    <Compile Include="Migrations\202006060906134_add_kaoQin.designer.cs">
+      <DependentUpon>202006060906134_add_kaoQin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="School.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="Teacher.cs" />
+    <Compile Include="User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202004021426451_InitialCreate.resx">
+      <DependentUpon>202004021426451_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004021521571_A.resx">
+      <DependentUpon>202004021521571_A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004040431130_s.resx">
+      <DependentUpon>202004040431130_s.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004101113413_updata.resx">
+      <DependentUpon>202004101113413_updata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004101341422_genggaitype.resx">
+      <DependentUpon>202004101341422_genggaitype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004101404047_updata1.resx">
+      <DependentUpon>202004101404047_updata1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004101440125_edit.resx">
+      <DependentUpon>202004101440125_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004120727025_s1.resx">
+      <DependentUpon>202004120727025_s1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004120751096_s2.resx">
+      <DependentUpon>202004120751096_s2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004120755513_2.resx">
+      <DependentUpon>202004120755513_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004211118248_Script.resx">
+      <DependentUpon>202004211118248_Script.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004261306317_InitialCreate1.resx">
+      <DependentUpon>202004261306317_InitialCreate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004281030359_PaperTest.resx">
+      <DependentUpon>202004281030359_PaperTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004281146088_Script1.resx">
+      <DependentUpon>202004281146088_Script1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004301027049_addteacher.resx">
+      <DependentUpon>202004301027049_addteacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005010600364_deleqid.resx">
+      <DependentUpon>202005010600364_deleqid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005010913454_ADD_CITY.resx">
+      <DependentUpon>202005010913454_ADD_CITY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005010935073_ad.resx">
+      <DependentUpon>202005010935073_ad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005010946273_ad1.resx">
+      <DependentUpon>202005010946273_ad1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005051441582_j.resx">
+      <DependentUpon>202005051441582_j.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005181314543_add-eqnum-sdt.resx">
+      <DependentUpon>202005181314543_add-eqnum-sdt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005181321466_ade.resx">
+      <DependentUpon>202005181321466_ade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005191048457_no-zizeng.resx">
+      <DependentUpon>202005191048457_no-zizeng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006060906134_add_kaoQin.resx">
+      <DependentUpon>202006060906134_add_kaoQin.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\一体机测温后台管理系统\packages\EntityFramework.6.4.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\一体机测温后台管理系统\packages\EntityFramework.6.4.0\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\一体机测温后台管理系统\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\一体机测温后台管理系统\packages\EntityFramework.6.4.0\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\一体机测温后台管理系统\packages\EntityFramework.6.4.0\build\EntityFramework.targets" Condition="Exists('..\一体机测温后台管理系统\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" />
+</Project>

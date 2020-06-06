@@ -1,0 +1,12 @@
+F:\闸机测温后台系统\server\Face.DTO\bin\Debug\Face.DTO.dll
+F:\闸机测温后台系统\server\Face.DTO\bin\Debug\Face.DTO.pdb
+F:\闸机测温后台系统\server\Face.DTO\obj\Debug\Face.DTO.dll
+F:\闸机测温后台系统\server\Face.DTO\obj\Debug\Face.DTO.pdb
+E:\闸机测温后台系统\server\Face.DTO\bin\Debug\Face.DTO.dll
+E:\闸机测温后台系统\server\Face.DTO\bin\Debug\Face.DTO.pdb
+E:\闸机测温后台系统\server\Face.DTO\obj\Debug\Face.DTO.csprojAssemblyReference.cache
+E:\闸机测温后台系统\server\Face.DTO\obj\Debug\Face.DTO.csproj.CoreCompileInputs.cache
+E:\闸机测温后台系统\server\Face.DTO\obj\Debug\Face.DTO.dll
+E:\闸机测温后台系统\server\Face.DTO\obj\Debug\Face.DTO.pdb
+F:\闸机测温后台系统\server\Face.DTO\obj\Debug\Face.DTO.csprojAssemblyReference.cache
+F:\闸机测温后台系统\server\Face.DTO\obj\Debug\Face.DTO.csproj.CoreCompileInputs.cache
