@@ -1,0 +1,158 @@
+10:37:47 |服务器:【收到】来客户端:192.168.1.6:55130的信息：
+{"url":"login","msgId":"54084","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+10:38:58 |服务器:【收到】来客户端:192.168.1.6:47629的信息：
+{"url":"login","msgId":"54085","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+10:40:30 |服务器:【收到】来客户端:192.168.1.6:46151的信息：
+{"url":"login","msgId":"54086","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+10:43:49 |服务器:【收到】来客户端:192.168.1.6:48096的信息：
+{"url":"login","msgId":"54087","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+10:44:56 |服务器:【收到】来客户端:192.168.1.6:56643的信息：
+{"url":"login","msgId":"54088","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+10:48:24 |服务器:【收到】来客户端:192.168.1.6:54261的信息：
+{"url":"login","msgId":"54089","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+10:50:13 |服务器:【收到】来客户端:192.168.1.6:52503的信息：
+{"url":"login","msgId":"54090","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+10:58:32 |服务器:【收到】来客户端:192.168.1.6:57339的信息：
+{"url":"login","msgId":"54091","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+10:59:42 |服务器:【收到】来客户端:192.168.1.6:47947的信息：
+{"url":"login","msgId":"54092","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+11:01:27 |服务器:【收到】来客户端:192.168.1.6:33462的信息：
+{"url":"login","msgId":"54093","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+11:02:38 |服务器:【收到】来客户端:192.168.1.6:34116的信息：
+{"url":"login","msgId":"54094","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+11:04:41 |服务器:【收到】来客户端:192.168.1.6:56147的信息：
+{"url":"login","msgId":"54095","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+11:20:00 |服务器:【收到】来客户端:192.168.1.6:51354的信息：
+{"url":"login","msgId":"54096","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+11:25:24 |服务器:【收到】来客户端:192.168.1.6:36947的信息：
+{"url":"login","msgId":"54097","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+11:26:32 |服务器:【收到】来客户端:192.168.1.6:44317的信息：
+{"url":"login","msgId":"54098","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+11:27:23 |服务器:【收到】来客户端:192.168.1.6:41315的信息：
+{"url":"login","msgId":"54099","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+11:28:45 |服务器:【收到】来客户端:192.168.1.6:46888的信息：
+{"url":"login","msgId":"54100","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+11:29:19 |服务器:【收到】来客户端:192.168.1.6:58719的信息：
+{"url":"login","msgId":"54101","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+11:30:33 |服务器:【收到】来客户端:192.168.1.6:38465的信息：
+{"url":"login","msgId":"54102","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+11:40:10 |服务器:【收到】来客户端:192.168.1.6:45136的信息：
+{"url":"login","msgId":"54103","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+11:41:01 |服务器:【收到】来客户端:192.168.1.6:43960的信息：
+{"url":"login","msgId":"54104","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+14:19:01 |服务器:【收到】来客户端:192.168.1.6:39309的信息：
+{"url":"login","msgId":"54105","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+14:23:29 |服务器:【收到】来客户端:192.168.1.6:39309的信息：
+{"msgId":"1c2217f2-a540-4c19-b915-1e2129bcf162","errCode":0,"errMsg":"success"}
+14:24:30 |服务器:【收到】来客户端:192.168.1.6:54227的信息：
+{"url":"login","msgId":"54106","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+14:31:49 |服务器:【收到】来客户端:192.168.1.6:54227的信息：
+{"msgId":"e6a33d8f-a81e-4b80-8e9f-2399fa349250","errCode":0,"errMsg":"success"}
+14:40:06 |服务器:【收到】来客户端:192.168.1.6:54227的信息：
+{"msgId":"418fb74b-2456-4ffc-9f3b-60aa3c7b3e9c","errCode":0,"errMsg":"success"}
+15:12:29 |服务器:【收到】来客户端:192.168.1.6:38801的信息：
+{"url":"login","msgId":"54107","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+15:16:11 |服务器:【收到】来客户端:192.168.1.6:38801的信息：
+{"msgId":"1e8a18bd-273c-4c37-8026-d72bd1b1efd6","errCode":0,"errMsg":"success"}
+15:17:11 |服务器:【收到】来客户端:192.168.1.6:38801的信息：
+{"msgId":"1b589b12-2d96-4a9e-af68-20dd089f43aa","errCode":0,"errMsg":"success"}
+15:19:28 |服务器:【收到】来客户端:192.168.1.6:38801的信息：
+{"msgId":"b113adb8-500c-42d5-9f01-4e156a61b952","errCode":0,"errMsg":"success"}
+15:20:44 |服务器:【收到】来客户端:192.168.1.6:38801的信息：
+{"msgId":"04612609-92ca-4438-a54a-80cf8ac93e61","errCode":0,"errMsg":"success"}
+15:31:11 |服务器:【收到】来客户端:192.168.1.6:38801的信息：
+{"msgId":"ab0b994a-b9db-4631-a697-820d2f5f7789","errCode":0,"errMsg":"success"}
+15:31:38 |服务器:【收到】来客户端:192.168.1.6:38801的信息：
+{"msgId":"e874dbc0-8d3f-45b0-a9b6-b3dd96102f2c","errCode":0,"errMsg":"success"}
+15:33:47 |服务器:【收到】来客户端:192.168.1.6:38801的信息：
+{"msgId":"2ac7a5cf-6ed9-488d-a2cd-a187dc16beb8","errCode":0,"errMsg":"success"}
+15:33:48 |服务器:【收到】来客户端:192.168.1.6:38801的信息：
+{"msgId":"87aa190f-d5fc-4ca0-88da-4a99aa236abd","errCode":0,"errMsg":"success"}
+15:47:28 |服务器:【收到】来客户端:192.168.1.6:56622的信息：
+{"url":"login","msgId":"54108","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+15:50:27 |服务器:【收到】来客户端:192.168.1.6:56622的信息：
+{"msgId":"94c82569-d511-4c93-aa2d-d2400c6b8052","errCode":0,"errMsg":"success"}
+15:50:58 |服务器:【收到】来客户端:192.168.1.6:56622的信息：
+{"msgId":"3ebbae55-abb5-42ce-acad-2fb3f7942287","errCode":0,"errMsg":"success"}
+16:14:47 |服务器:【收到】来客户端:192.168.1.6:53169的信息：
+{"url":"login","msgId":"54109","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+16:14:57 |服务器:【收到】来客户端:192.168.1.6:53169的信息：
+{"msgId":"558d873e-a27a-4589-9751-2df9076c1a21","errCode":0,"errMsg":"success"}
+16:15:27 |服务器:【收到】来客户端:192.168.1.6:53169的信息：
+{"msgId":"5db9a4dd-8f11-45b3-ab3c-3c85b7dde37c","errCode":0,"errMsg":"success"}
+16:25:23 |服务器:【收到】来客户端:192.168.1.6:55324的信息：
+{"url":"login","msgId":"54110","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+16:32:51 |服务器:【收到】来客户端:192.168.1.6:58259的信息：
+{"url":"login","msgId":"54111","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+16:33:34 |服务器:【收到】来客户端:192.168.1.6:58259的信息：
+{"msgId":"35edadde-dcf9-4e75-a1b6-03f396b5d64d","errCode":0,"errMsg":"success"}
+16:34:52 |服务器:【收到】来客户端:192.168.1.6:42753的信息：
+{"url":"login","msgId":"54112","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+16:39:37 |服务器:【收到】来客户端:192.168.1.6:42753的信息：
+{"msgId":"3e6ce200-1c86-4532-82c6-48da84cd0876","errCode":-1,"errMsg":"1, delete face error, no faceId found"}
+16:40:47 |服务器:【收到】来客户端:192.168.1.6:42753的信息：
+{"msgId":"4b9ffe5a-ddcb-4e4a-92b4-da6c19c3bfc1","errCode":0,"errMsg":"success"}
+16:41:32 |服务器:【收到】来客户端:192.168.1.6:42753的信息：
+{"msgId":"f4bb3ef3-4e17-4285-b161-cd1e12ae4bc3","errCode":0,"errMsg":"success"}
+16:41:46 |服务器:【收到】来客户端:192.168.1.6:42753的信息：
+{"msgId":"09f74fc3-bfc6-4711-ad5e-c18304d6a4a6","errCode":0,"errMsg":"success"}
+16:42:06 |服务器:【收到】来客户端:192.168.1.6:42753的信息：
+{"msgId":"b1a30d81-547f-4f4f-b6e7-fccdfd83169b","errCode":0,"errMsg":"success"}
+16:44:24 |服务器:【收到】来客户端:192.168.1.6:42753的信息：
+{"msgId":"a8042ff9-458d-4fd2-87e2-cb150b908eec","errCode":0,"errMsg":"success"}
+16:45:41 |服务器:【收到】来客户端:192.168.1.6:42753的信息：
+{"msgId":"25c47f3e-c2b7-46c8-ac65-bec133f61fa8","errCode":0,"errMsg":"success"}
+16:47:23 |服务器:【收到】来客户端:192.168.1.6:42753的信息：
+{"msgId":"5af05df2-9b75-4adb-8640-3f54f674f6f6","errCode":0,"errMsg":"success"}
+16:50:21 |服务器:【收到】来客户端:192.168.1.6:42753的信息：
+{"msgId":"cf1737a6-872e-40b8-9793-9083ca9c4869","errCode":0,"errMsg":"success"}
+16:59:59 |服务器:【收到】来客户端:192.168.1.6:35869的信息：
+{"url":"login","msgId":"54113","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+17:07:15 |服务器:【收到】来客户端:192.168.1.6:36566的信息：
+{"url":"login","msgId":"54114","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+17:08:04 |服务器:【收到】来客户端:192.168.1.6:36566的信息：
+{"msgId":"5f704c66-66b6-4698-aaf1-ba6d020ef023","errCode":0,"errMsg":"success"}
+17:08:36 |服务器:【收到】来客户端:192.168.1.6:36566的信息：
+{"msgId":"a4bff5c9-cbb2-45d8-bda5-373ecc1cf750","errCode":0,"errMsg":"success"}
+17:12:59 |服务器:【收到】来客户端:192.168.1.6:38454的信息：
+{"url":"login","msgId":"54115","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+17:14:14 |服务器:【收到】来客户端:192.168.1.6:53282的信息：
+{"url":"login","msgId":"54116","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+17:17:29 |服务器:【收到】来客户端:192.168.1.6:53282的信息：
+{"msgId":"57cd39ac-9b59-457e-babc-e7aae48e331c","errCode":0,"errMsg":"success"}
+17:17:58 |服务器:【收到】来客户端:192.168.1.6:53282的信息：
+{"msgId":"c4c241f5-8d79-4b87-89aa-1242699a6a19","errCode":0,"errMsg":"success"}
+17:18:15 |服务器:【收到】来客户端:192.168.1.6:53282的信息：
+{"msgId":"520e4f2c-d6dc-4076-b0f5-eea1146eca39","errCode":0,"errMsg":"success"}
+17:19:16 |服务器:【收到】来客户端:192.168.1.6:53282的信息：
+{"msgId":"31ec898b-40ef-4b83-bc3c-7f72cd14a5b1","errCode":0,"errMsg":"success"}
+17:20:23 |服务器:【收到】来客户端:192.168.1.6:53282的信息：
+{"msgId":"652ecd59-8224-42e3-bf09-c6242296694a","errCode":0,"errMsg":"success"}
+17:23:43 |服务器:【收到】来客户端:192.168.1.6:54593的信息：
+{"url":"login","msgId":"54117","deviceSerial":"2fb3838a2719f63b","deviceID":"1","localIP":""}
+17:25:00 |服务器:【收到】来客户端:192.168.1.6:54593的信息：
+{"msgId":"07b2b306-5070-417b-b3c9-ed24a7065796","errCode":0,"errMsg":"success"}
+17:25:15 |服务器:【收到】来客户端:192.168.1.6:54593的信息：
+{"msgId":"88e6dcab-f8d8-4c16-863c-00dade8bb232","errCode":-1,"errMsg":"1, delete face error, no faceId found"}
+17:25:42 |服务器:【收到】来客户端:192.168.1.6:54593的信息：
+{"msgId":"c4ec2893-e2c5-4dfa-afb0-1220a635678c","errCode":-1,"errMsg":"1, delete face error, no faceId found"}
+17:26:10 |服务器:【收到】来客户端:192.168.1.6:54593的信息：
+{"msgId":"a68e8233-c38e-44dd-b80b-7c63b23481ed","errCode":-1,"errMsg":"1, delete face error, no faceId found"}
+17:26:26 |服务器:【收到】来客户端:192.168.1.6:54593的信息：
+{"msgId":"81cd12e8-96ff-48e9-a50d-02534de465e6","errCode":-1,"errMsg":"1, delete face error, no faceId found"}
+17:27:48 |服务器:【收到】来客户端:192.168.1.6:54593的信息：
+{"msgId":"e5924d50-9ea5-4f32-b76a-f8ac87ed8eb6","errCode":0,"errMsg":"success"}
+17:28:24 |服务器:【收到】来客户端:192.168.1.6:54593的信息：
+{"msgId":"1746e995-ee11-4c92-8cbc-d41cf2cb6d8c","errCode":0,"errMsg":"success"}
+17:28:47 |服务器:【收到】来客户端:192.168.1.6:54593的信息：
+{"msgId":"880f8af8-ec3d-4e60-bd38-7db5543a8141","errCode":-1,"errMsg":"1, delete face error, no faceId found"}
+17:29:48 |服务器:【收到】来客户端:192.168.1.6:54593的信息：
+{"msgId":"09340a8a-9d23-4b9b-a8f9-2c02231c0f70","errCode":0,"errMsg":"success"}
+17:30:17 |服务器:【收到】来客户端:192.168.1.6:54593的信息：
+{"msgId":"30c4d272-dbb0-44f1-bc82-0e48634f7960","errCode":0,"errMsg":"success"}
+17:30:40 |服务器:【收到】来客户端:192.168.1.6:54593的信息：
+{"msgId":"5f3bfa4d-39f7-4cd7-8031-054639136523","errCode":0,"errMsg":"success"}
+17:30:53 |服务器:【收到】来客户端:192.168.1.6:54593的信息：
+{"msgId":"b4e985c9-b43e-4c30-85a6-d69f78606ccc","errCode":-1,"errMsg":"1, delete face error, no faceId found"}
+17:31:09 |服务器:【收到】来客户端:192.168.1.6:54593的信息：
+{"msgId":"a4a60a39-59f9-4d8f-8359-d7e1949cc5a4","errCode":-1,"errMsg":"1, delete face error, no faceId found"}
