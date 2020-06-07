@@ -157,6 +157,10 @@
     <Compile Include="Migrations\202006060906134_add_kaoQin.designer.cs">
       <DependentUpon>202006060906134_add_kaoQin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006070323162_6-7.cs" />
+    <Compile Include="Migrations\202006070323162_6-7.designer.cs">
+      <DependentUpon>202006070323162_6-7.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="School.cs" />
@@ -240,6 +244,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202006060906134_add_kaoQin.resx">
       <DependentUpon>202006060906134_add_kaoQin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006070323162_6-7.resx">
+      <DependentUpon>202006070323162_6-7.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

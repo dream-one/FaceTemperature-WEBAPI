@@ -13,6 +13,7 @@ namespace FaceServer {
         protected void Application_Start() {
             WebSocketController.Connect();//开启websocket连接
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            log4net.Config.XmlConfigurator.Configure();
         }
 
         public static object GetCache(string cacheKey) {

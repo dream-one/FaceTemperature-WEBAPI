@@ -16,3 +16,9 @@ E:\测温\Face.DTO\obj\Release\Face.DTO.csprojAssemblyReference.cache
 E:\测温\Face.DTO\obj\Release\Face.DTO.csproj.CoreCompileInputs.cache
 E:\测温\Face.DTO\obj\Release\Face.DTO.dll
 E:\测温\Face.DTO\obj\Release\Face.DTO.pdb
+G:\U盘备份\测温\Face.DTO\bin\Release\Face.DTO.dll
+G:\U盘备份\测温\Face.DTO\bin\Release\Face.DTO.pdb
+G:\U盘备份\测温\Face.DTO\obj\Release\Face.DTO.csprojAssemblyReference.cache
+G:\U盘备份\测温\Face.DTO\obj\Release\Face.DTO.csproj.CoreCompileInputs.cache
+G:\U盘备份\测温\Face.DTO\obj\Release\Face.DTO.dll
+G:\U盘备份\测温\Face.DTO\obj\Release\Face.DTO.pdb

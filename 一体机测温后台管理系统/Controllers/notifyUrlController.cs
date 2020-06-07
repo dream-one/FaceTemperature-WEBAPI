@@ -48,37 +48,45 @@ namespace FaceServer.Controllers {
                         break;
                 }
                 string State = "正常";
-                if (model.inOutType == 0) {
-                    DateTime jinTime = DateTime.Parse(model.time);
-                    if (jinTime.Hour >= 8) {
-                        if (jinTime.Minute > 0) {
-                            //迟到,增加一个考勤字段，在这里将这个考勤字段设置为迟到
-                            State = "迟到";
-                        }
-                    }
-                }
 
-                if (model.inOutType == 1) {
-                    DateTime jinTime = DateTime.Parse(model.time);
-                    if (jinTime.Hour <= 17) {
-                        if (jinTime.Minute < 60) {
-                            //早退
-                            State = "早退";
-                        }
-                    }
-                }
 
                 #endregion
                 int SchoolID = EqManager.GetSchoolIdByEqNum(model.deviceSerial);
+                var result = AttendanceManager.GetTime(SchoolID);
+                if (result == null) {
+                    State = "未设置考勤范围";
+                }
+                else {
+                    if (model.inOutType == 0) {
+                        DateTime jinTime = DateTime.Parse(model.time);
+                        if (jinTime.Hour >= result.InTime.Hour) {
+                            if (jinTime.Minute > 0) {
+                                //迟到,增加一个考勤字段，在这里将这个考勤字段设置为迟到
+                                State = "迟到";
+                            }
+                        }
+                    }
+
+                    if (model.inOutType == 1) {
+                        DateTime jinTime = DateTime.Parse(model.time);
+                        if (jinTime.Hour <= result.OutTime.Hour) {
+                            if (jinTime.Minute < 60) {
+                                //早退
+                                State = "早退";
+                            }
+                        }
+                    }
+                }
+
                 await NotifyManager.AddNotify(SchoolID, model.faceID, model.deviceSerial, model.faceName, model.authType, inouttype, model.time, State, model.deviceID, model.snapshotUrl, "data:image/jpeg;base64," + model.snapshotContent, model.temperature);
 
-                var result = new { errCode = 0, errMsg = "success" };
-                return result;
+                var rst = new { errCode = 0, errMsg = "success" };
+                return rst;
             }
             catch (Exception ex) {
 
-                var result = new { errCode = 1, errMsg = ex.Message };
-                return result;
+                var err = new { errCode = 1, errMsg = ex.Message };
+                return err;
             }
         }
 
@@ -90,17 +98,17 @@ namespace FaceServer.Controllers {
         [HttpGet]
         [MyAuth]
         [Route("api/GetNotifyByName")]
-        public IHttpActionResult SearchNotifyByName(string Name=null, string StartTime = null, string EndTime = null) {
+        public IHttpActionResult SearchNotifyByName(string Name = null, string StartTime = null, string EndTime = null) {
 
-                string token = HttpContext.Current.Request.Headers["token"];
-                var userInfo = JwtTools.DEcode(token);
-                //调用usermanager.getuserinfo 获取用户信息
-                var user = UserManager.GetUserInfo(userInfo["name"]);
-                var result = NotifyManager.GetNotifyByName( user.organizationID,Name,StartTime,EndTime);
-                return this.SendData(result);
-            }
-          
-        
+            string token = HttpContext.Current.Request.Headers["token"];
+            var userInfo = JwtTools.DEcode(token);
+            //调用usermanager.getuserinfo 获取用户信息
+            var user = UserManager.GetUserInfo(userInfo["name"]);
+            var result = NotifyManager.GetNotifyByName(user.organizationID, Name, StartTime, EndTime);
+            return this.SendData(result);
+        }
+
+
         /// <summary>
         /// 分页获取进出记录
         /// </summary>

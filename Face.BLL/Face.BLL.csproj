@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttendanceManager.cs" />
     <Compile Include="CityManager.cs" />
     <Compile Include="ClassManager.cs" />
     <Compile Include="DistrictManager.cs" />

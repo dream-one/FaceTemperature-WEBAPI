@@ -29,12 +29,13 @@ namespace FaceServer.Controllers {
                         return this.SendData(token);
                     }
                     else {
+
                         return this.ErrorData("账号密码错误");
                     }
                 }
                 catch (Exception ex) {
-
-                    throw new Exception(ex.Message);
+  
+                    return this.ErrorData("出现错误");
                 }
             }
             else {
@@ -79,7 +80,7 @@ namespace FaceServer.Controllers {
                 try {
                     switch (Level) {
                         case 1:
-                            object[] children = new object[] { new { name = "在职人员管理", id = "teacherMan" }, new { name = "学生管理", id = "studentMan" }, new { name = "班/年级管理", id = "classGradeMan" } ,new { name="考勤管理",id="attendances"} };
+                            object[] children = new object[] { new { name = "在职人员管理", id = "teacherMan" }, new { name = "学生管理", id = "studentMan" }, new { name = "班/年级管理", id = "classGradeMan" }, new { name = "考勤管理", id = "attendances" } };
                             object[] data = new object[] { new { name = "首页", id = "home", icon = "el-icon-s-home" },
                                 new { name = "设备管理", id = "equiment", icon = "el-icon-s-platform"},
                                 new { name = "进出记录", id = "notify", icon = "el-icon-s-data" },

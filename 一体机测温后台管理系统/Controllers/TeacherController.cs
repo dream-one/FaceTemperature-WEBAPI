@@ -10,6 +10,7 @@ using System.Threading;
 using FaceServer.Models;
 
 namespace FaceServer.Controllers {
+
     public class TeacherController : ApiController {
 
 

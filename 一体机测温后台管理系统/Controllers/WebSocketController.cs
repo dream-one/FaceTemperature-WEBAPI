@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using System.Web.Http;
 
 namespace FaceServer.Controllers {
+
     public class WebSocketController : ApiController {
         //客户端url以及其对应的Socket对象字典
         public static IDictionary<string, WebSocketViewModel> dic_Sockets;

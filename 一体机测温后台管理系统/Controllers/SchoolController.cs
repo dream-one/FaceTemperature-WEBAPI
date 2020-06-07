@@ -10,6 +10,7 @@ using System.Web;
 using System.Web.Http;
 
 namespace FaceServer.Controllers {
+
     public class SchoolController : ApiController {
 
         /// <summary>

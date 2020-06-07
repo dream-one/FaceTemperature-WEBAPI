@@ -16,43 +16,46 @@
       <publishTime>11/16/2019 03:00:40</publishTime>
     </File>
     <File Include="bin/Face.BLL.dll">
-      <publishTime>06/06/2020 17:34:10</publishTime>
+      <publishTime>06/07/2020 14:43:36</publishTime>
     </File>
     <File Include="bin/Face.BLL.dll.config">
       <publishTime>05/19/2020 11:12:20</publishTime>
     </File>
     <File Include="bin/Face.BLL.pdb">
-      <publishTime>06/06/2020 17:34:10</publishTime>
+      <publishTime>06/07/2020 14:43:36</publishTime>
     </File>
     <File Include="bin/Face.DAL.dll">
-      <publishTime>06/06/2020 17:34:06</publishTime>
+      <publishTime>06/07/2020 14:43:36</publishTime>
     </File>
     <File Include="bin/Face.DAL.dll.config">
       <publishTime>04/03/2020 10:00:50</publishTime>
     </File>
     <File Include="bin/Face.DAL.pdb">
-      <publishTime>06/06/2020 17:34:06</publishTime>
+      <publishTime>06/07/2020 14:43:36</publishTime>
     </File>
     <File Include="bin/Face.DTO.dll">
-      <publishTime>06/06/2020 17:33:52</publishTime>
+      <publishTime>06/07/2020 01:16:50</publishTime>
     </File>
     <File Include="bin/Face.DTO.pdb">
-      <publishTime>06/06/2020 17:33:52</publishTime>
+      <publishTime>06/07/2020 01:16:50</publishTime>
     </File>
     <File Include="bin/Face.Models.dll">
-      <publishTime>06/06/2020 17:33:56</publishTime>
+      <publishTime>06/07/2020 14:43:36</publishTime>
     </File>
     <File Include="bin/Face.Models.dll.config">
       <publishTime>04/30/2020 14:56:24</publishTime>
     </File>
     <File Include="bin/Face.Models.pdb">
-      <publishTime>06/06/2020 17:33:56</publishTime>
+      <publishTime>06/07/2020 14:43:36</publishTime>
     </File>
     <File Include="bin/Fleck.dll">
       <publishTime>03/20/2019 17:31:14</publishTime>
     </File>
     <File Include="bin/JWT.dll">
       <publishTime>06/24/2019 20:02:08</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/08/2017 19:26:22</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNetCore.Http.Abstractions.dll">
       <publishTime>11/12/2018 17:29:00</publishTime>
@@ -283,16 +286,19 @@
       <publishTime>11/29/2018 13:28:20</publishTime>
     </File>
     <File Include="bin/一体机测温后台管理系统.dll">
-      <publishTime>06/06/2020 17:34:22</publishTime>
+      <publishTime>06/07/2020 15:27:36</publishTime>
     </File>
     <File Include="bin/一体机测温后台管理系统.pdb">
-      <publishTime>06/06/2020 17:34:22</publishTime>
+      <publishTime>06/07/2020 15:27:36</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>06/02/2020 21:00:50</publishTime>
     </File>
+    <File Include="log4Net.config">
+      <publishTime>06/07/2020 15:12:57</publishTime>
+    </File>
     <File Include="Web.config">
-      <publishTime>06/06/2020 17:34:40</publishTime>
+      <publishTime>06/07/2020 15:27:32</publishTime>
     </File>
   </ItemGroup>
 </Project>

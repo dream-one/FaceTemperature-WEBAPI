@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FaceServer.App_Start;
+using FaceServer.Filters;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
@@ -13,6 +15,7 @@ namespace FaceServer
             GlobalConfiguration.Configuration.Formatters.XmlFormatter.SupportedMediaTypes.Clear();
             // Web API 配置和服务
             config.EnableCors(new EnableCorsAttribute("*", "*", "*"));
+            config.Filters.Add(new WebApiExceptionFilterAttribute());
             // Web API 路由
             config.MapHttpAttributeRoutes();
 
