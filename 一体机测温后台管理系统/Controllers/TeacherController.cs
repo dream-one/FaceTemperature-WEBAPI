@@ -99,7 +99,7 @@ namespace FaceServer.Controllers {
                 foreach (var socket in WebSocketController.dic_Sockets.Values) {//遍历正在连接的设备
                     if (teacher.EquipmentNum == socket.deviceSerial) {
                         var msgId = Guid.NewGuid().ToString();
-                        var obj = new { url = "addFace", msgId, faceID = teacher.Id, imageContent = teacher.imageContent, overwrite = true };
+                        var obj = new { url = "addFace", msgId, faceName=teacher.Name, faceID = teacher.Id, imageContent = teacher.imageContent, overwrite = true };
                         await socket.socket.Send(JsonConvert.SerializeObject(obj));
                         JObject jObject = null;
                         for (int i = 0; i < 7; i++) {//循环去内存中查找有没有回应

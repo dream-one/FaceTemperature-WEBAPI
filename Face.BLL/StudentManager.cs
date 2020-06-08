@@ -27,7 +27,7 @@ namespace Face.BLL {
                     var Classes = ClassManager.QueryClass(ClassName);
                     foreach (var item in Classes) {
                         if (item.GradeID == Grad.Id) {
-                            await stuSvc.CreatAsync(new Student() { Id = Id, Name = name, PhoneNum = phoneNum, Image = image, ClassId = item.Id, ClassName = ClassName, GradeName = GradeName, StudentID = StudentID, DeviceSerial = DeviceSerial}, true);
+                            await stuSvc.CreatAsync(new Student() { Id = Id, Name = name, PhoneNum = phoneNum, Image = image, ClassId = item.Id, ClassName = ClassName, GradeName = GradeName, StudentID = StudentID, DeviceSerial = DeviceSerial }, true);
                         }
                         else {
                             continue;
@@ -40,6 +40,28 @@ namespace Face.BLL {
             catch (Exception ex) {
 
                 throw new Exception(ex.Message);
+            }
+        }
+        public static async Task EditStudentAsync(int Id, string Name, string ClassName, string GradeName, string StudentID, string image, string DeviceSerial, string PhoneNum = null) {
+            using (StudentService student = new StudentService()) {
+                var Grad = GradeManager.QueryGrad(GradeName);
+                var Classes = ClassManager.QueryClass(ClassName);
+                foreach (var item in Classes) {
+                    if (item.GradeID == Grad.Id) {
+                        await student.Edit(new Models.Student() {
+                            Id = Id,
+                            Name = Name,
+                            ClassName = ClassName,
+                            GradeName = GradeName,
+                            StudentID = StudentID,
+                            PhoneNum = PhoneNum,
+                            DeviceSerial = DeviceSerial,
+                            ClassId = item.Id,
+                            Image = image
+                        }, true);
+                    }
+                }
+
             }
         }
 

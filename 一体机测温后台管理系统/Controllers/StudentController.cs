@@ -100,6 +100,40 @@ namespace FaceServer.Controllers {
             }
         }
 
+
+        [HttpPost]
+        [MyAuth]
+        public async System.Threading.Tasks.Task<IHttpActionResult> EditStudentrAsync(Student student) {
+            try {
+                foreach (var socket in WebSocketController.dic_Sockets.Values) {//遍历正在连接的设备
+                    if (student.EquipmentNum == socket.deviceSerial) {
+                        var msgId = Guid.NewGuid().ToString();
+                        var obj = new { url = "addFace", msgId, faceName = student.Name, faceID = student.Id, student.imageContent, overwrite = true };
+                        await socket.socket.Send(JsonConvert.SerializeObject(obj));
+                        JObject jObject = null;
+                        for (int i = 0; i < 7; i++) {//循环去内存中查找有没有回应
+                            Thread.Sleep(200);
+                            jObject = WebApiApplication.GetCache(msgId) as JObject;
+                            if (jObject != null) {
+                                if (jObject["errCode"].ToString() == "0") {
+                                    await StudentManager.EditStudentAsync(student.Id, student.Name, student.classValue, student.gradeValue, student.StudentID, "data: image / jpeg; base64," + student.imageContent, student.EquipmentNum, student.PhoneNum.ToString());
+                                    return this.SendData(jObject);
+                                }
+                                else {
+                                    return this.ErrorData(jObject["errMsg"].ToString());
+                                }
+                            }
+                        }
+                        return this.ErrorData("没有等到设备响应");
+                    }
+                }
+                return this.ErrorData("没找到设备，查看设备相关设置");
+            }
+            catch (Exception ex) {
+
+                return this.ErrorData("错误" + ex.Message);
+            }
+        }
         //[HttpGet]
         //[MyAuth]
         //public IHttpActionResult DeleteStudent(int Id) {
